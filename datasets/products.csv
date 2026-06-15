@@ -1,0 +1,99 @@
+product_id,product_name,category,subcategory,brand,unit_cost,unit_price,weight_kg,is_active,launch_date
+1,SmartLife Smartphones  400,Electronics,Smartphones,ViewMax,612.93,1179.24,1.38,no,07/10/2023
+2,FitGear Smartphones Pro 221,Electronics,Smartphones,SmartLife,651.4,860.63,1.94,0,2018-05-10
+3,ClearSound Smartphones  541,Electronics,Smartphones,FitGear,48.07,100.53,2.49,N,2021-05-26
+4,ViewMax Laptops Pro 618,Electronics,Laptops,FitGear,534.86,1062.58,3.0,Y,2023-05-04
+5,TechPro Laptops  146,Electronics,Laptops,HomeChef,501.21,1239.66,4.07,N,2021-08-05
+6,HomeChef Laptops Pro 521,Electronics,,SoundWave,616.85,1083.61,1.31,1,10/20/2022
+7,TechPro Laptops  120,Electronics,Laptops,FitGear,482.17,664.72,3.32,yes,2021-06-02
+8,ViewMax Laptops  424,Electronics,Laptops,HomeChef,463.08,750.16,2.91,0,2023-04-08
+9,SmartLife Laptops Pro 447,Electronics,Laptops,HomeChef,98.04,166.98,4.85,N,22/08/2023
+10,HomeChef Tablets  404,Electronics,Tablets,SoundWave,515.65,716.95,3.16,yes,2020-05-26
+11,TechPro Tablets Pro 643,Electronics,Tablets,HomeChef,579.81,1165.56,4.0,0,01/24/2021
+12,SoundWave Tablets  357,Electronics,Tablets,ClearSound,413.62,867.01,3.84,yes,07/07/2021
+13,ViewMax Tablets  776,Electronics,Tablets,FitGear,707.1,1357.26,1.41,YES,2020-02-04
+14,HomeChef Tablets  346,Electronics,Tablets,SmartLife,749.02,1027.55,1.57,N,2020-04-01
+15,SmartLife Tablets  943,Electronics,Tablets,HomeChef,340.0,813.74,3.47,1,13/04/2020
+16,FitGear Headphones  546,Electronics,Headphones,TechPro,206.02,274.68,1.09,0,06/25/2021
+17,ClearSound Headphones Pro 839,Electronics,Headphones,TechPro,126.42,286.25,4.31,0,2019-12-22
+18,HomeChef Headphones Pro 192,Electronics,Headphones,ClearSound,264.85,364.51,4.23,0,26/07/2022
+19,ClearSound Headphones Pro 893,Electronics,Headphones,TechPro,107.31,259.64,1.27,yes,2023-11-08
+20,SmartLife Headphones Pro 341,Electronics,Headphones,TechPro,623.09,1432.36,0.96,0,05/17/2022
+21,ViewMax Headphones  215,Electronics,Headphones,FitGear,362.79,728.26,3.45,1,07/02/2023
+22,ClearSound Cameras Pro 720,Electronics,Cameras,ClearSound,303.14,692.87,4.01,Y,2018-03-28
+23,HomeChef Cameras Pro 817,Electronics,Cameras,ClearSound,558.73,887.05,0.7,1,25/04/2022
+24,HomeChef Cameras  942,Electronics,Cameras,SoundWave,688.96,1647.82,4.31,YES,29/05/2022
+25,SmartLife Cameras  987,Electronics,Cameras,FitGear,734.39,1729.75,2.41,Y,2022-07-23
+26,ClearSound Coffee Makers  167,Home & Kitchen,Coffee Makers,ClearSound,579.56,1323.88,4.09,1,10/19/2019
+27,ClearSound Coffee Makers  756,Home & Kitchen,,SoundWave,-373.54,-508.96,3.18,N,01/23/2020
+28,SmartLife Coffee Makers Pro 520,Home & Kitchen,Coffee Makers,FitGear,469.13,750.38,2.44,YES,17/06/2019
+29,SoundWave Coffee Makers  476,Home & Kitchen,Coffee Makers,FitGear,223.33,511.9,4.73,N,28/02/2021
+30,TechPro Coffee Makers Pro 303,Home & Kitchen,Coffee Makers,SoundWave,-36.17,-71.26,0.34,1,2020-07-25
+31,TechPro Blenders Pro 545,Home & Kitchen,Blenders,FitGear,136.42,205.2,4.15,YES,2019-04-26
+32,HomeChef Blenders Pro 491,Home & Kitchen,Blenders,SoundWave,112.44,171.88,3.04,N,12/26/2020
+33,TechPro Blenders  368,Home & Kitchen,Blenders,SoundWave,586.83,889.89,1.91,N,2019-08-21
+34,ClearSound Blenders  492,Home & Kitchen,Blenders,ViewMax,86.88,203.8,1.36,no,2022-06-17
+35,HomeChef Blenders Pro 786,Home & Kitchen,Blenders,ClearSound,454.46,1098.56,4.07,YES,2023-04-13
+36,SoundWave Air Fryers Pro 672,Home & Kitchen,Air Fryers,HomeChef,413.54,1022.7,0.93,Y,2022-02-28
+37,ClearSound Air Fryers Pro 245,Home & Kitchen,Air Fryers,TechPro,745.66,1087.4,4.89,1,2021-07-23
+38,HomeChef Air Fryers Pro 369,Home & Kitchen,Air Fryers,HomeChef,699.91,1537.97,2.63,yes,2022-10-28
+39,ViewMax Air Fryers Pro 773,Home & Kitchen,Air Fryers,TechPro,716.28,1786.03,1.03,no,2019-09-12
+40,FitGear Air Fryers  606,Home & Kitchen,Air Fryers,ClearSound,199.29,321.31,2.85,Y,2023-03-29
+41,TechPro Vacuum Cleaners  390,Home & Kitchen,Vacuum Cleaners,ClearSound,107.74,159.2,2.59,N,12/02/2021
+42,ViewMax Vacuum Cleaners Pro 284,Home & Kitchen,Vacuum Cleaners,SoundWave,459.33,714.2,3.86,0,2018-01-17
+43,FitGear Vacuum Cleaners  208,Home & Kitchen,Vacuum Cleaners,TechPro,-712.15,-1508.03,0.5,YES,2019-05-15
+44,HomeChef Vacuum Cleaners Pro 771,Home & Kitchen,Vacuum Cleaners,HomeChef,374.16,753.2,4.74,yes,24/01/2018
+45,SmartLife Vacuum Cleaners  172,Home & Kitchen,Vacuum Cleaners,FitGear,184.87,383.12,0.55,yes,08/16/2021
+46,TechPro Vacuum Cleaners Pro 266,Home & Kitchen,Vacuum Cleaners,HomeChef,158.85,371.49,3.27,0,01/01/2019
+47,ClearSound Kettles Pro 467,Home & Kitchen,Kettles,HomeChef,252.87,552.03,2.61,no,2021-06-24
+48,TechPro Kettles Pro 930,Home & Kitchen,Kettles,FitGear,367.45,596.07,3.19,1,2022-09-29
+49,ClearSound Kettles Pro 258,Home & Kitchen,Kettles,ClearSound,51.54,95.67,2.67,0,07/07/2020
+50,SoundWave Smartwatches Pro 407,Wearables,Smartwatches,FitGear,361.14,676.46,1.55,YES,2019-09-01
+51,FitGear Smartwatches  575,Wearables,Smartwatches,SmartLife,449.78,861.82,1.34,no,09/23/2023
+52,SoundWave Smartwatches Pro 963,Wearables,,FitGear,476.74,629.07,4.4,0,03/11/2023
+53,ViewMax Smartwatches Pro 449,Wearables,Smartwatches,SoundWave,264.88,585.07,1.01,YES,01/17/2023
+54,FitGear Smartwatches  275,Wearables,Smartwatches,ClearSound,699.86,1358.6,2.08,no,2018-01-24
+55,SmartLife Smartwatches  228,Wearables,,TechPro,256.18,522.63,4.1,N,06/06/2022
+56,SmartLife Fitness Bands Pro 908,Wearables,Fitness Bands,HomeChef,183.2,381.0,3.87,yes,20/11/2022
+57,ClearSound Fitness Bands Pro 596,Wearables,,FitGear,-389.71,-584.3,2.97,0,17/09/2019
+58,TechPro Fitness Bands  967,Wearables,Fitness Bands,FitGear,249.97,442.47,4.26,no,09/29/2021
+59,SoundWave Earbuds Pro 640,Wearables,Earbuds,HomeChef,400.25,804.2,2.81,Y,06/22/2023
+60,ViewMax Earbuds Pro 455,Wearables,Earbuds,TechPro,716.44,1338.31,0.89,0,20/07/2023
+61,ViewMax Earbuds Pro 832,Wearables,Earbuds,HomeChef,386.01,736.96,3.64,no,2021-10-21
+62,SmartLife Monitors Pro 265,Computing,Monitors,ClearSound,669.8,1461.17,3.77,yes,2023-04-19
+63,SmartLife Monitors  605,Computing,Monitors,ViewMax,120.7,244.65,0.33,1,2019-02-18
+64,SmartLife Monitors Pro 615,Computing,Monitors,HomeChef,299.85,633.38,2.21,Y,17/12/2019
+65,SmartLife Monitors  147,Computing,Monitors,HomeChef,114.14,183.7,4.49,YES,2021-10-25
+66,SmartLife Monitors Pro 208,Computing,Monitors,SmartLife,571.0,1042.3,4.31,YES,2023-02-16
+67,SmartLife Monitors  470,Computing,Monitors,ClearSound,662.42,944.94,2.26,N,2019-04-29
+68,SmartLife Keyboards  525,Computing,Keyboards,SoundWave,140.35,320.42,4.19,YES,2019-05-19
+69,ClearSound Keyboards Pro 469,Computing,Keyboards,SoundWave,286.23,401.37,3.79,no,2022-03-06
+70,FitGear Keyboards Pro 628,Computing,Keyboards,TechPro,634.03,1150.5,2.27,YES,2022-08-04
+71,FitGear Mice  877,Computing,Mice,ClearSound,86.13,213.46,0.84,Y,2019-11-05
+72,HomeChef Mice  797,Computing,Mice,HomeChef,782.63,1767.87,3.64,no,10/31/2023
+73,ViewMax Mice Pro 817,Computing,Mice,SoundWave,-729.2,-1192.78,4.45,0,2023-12-02
+74,HomeChef External Drives  650,Computing,External Drives,ClearSound,712.39,1271.91,3.73,1,19/03/2020
+75,ViewMax External Drives  448,Computing,External Drives,TechPro,425.97,663.01,0.24,YES,09/27/2023
+76,TechPro External Drives Pro 961,Computing,External Drives,ViewMax,208.25,452.28,1.84,1,2023-09-01
+77,FitGear External Drives  341,Computing,External Drives,ViewMax,610.12,1121.7,2.87,YES,22/01/2018
+78,ClearSound External Drives  855,Computing,External Drives,ViewMax,293.26,657.41,2.95,N,07/28/2019
+79,TechPro Webcams  233,Computing,Webcams,TechPro,96.43,221.22,1.91,0,2018-12-02
+80,ViewMax Webcams  533,Computing,Webcams,FitGear,478.83,849.32,3.69,0,2020-12-16
+81,SoundWave Webcams Pro 625,Computing,Webcams,ClearSound,662.57,962.42,1.14,YES,2023-02-18
+82,ViewMax Webcams Pro 212,Computing,Webcams,HomeChef,45.43,89.53,0.3,Y,02/05/2019
+83,FitGear Webcams  246,Computing,Webcams,FitGear,111.84,195.65,0.34,N,04/19/2021
+84,TechPro Webcams  457,Computing,Webcams,FitGear,713.46,1628.79,2.46,Y,06/26/2023
+85,SmartLife Speakers  751,Audio,Speakers,ClearSound,722.22,1350.75,2.3,0,06/28/2019
+86,SoundWave Speakers Pro 447,Audio,,ClearSound,89.67,183.67,4.46,yes,05/06/2022
+87,ViewMax Speakers Pro 759,Audio,Speakers,ViewMax,523.81,1125.48,2.75,yes,2021-06-19
+88,TechPro Speakers  644,Audio,Speakers,HomeChef,766.69,1687.23,3.96,N,21/08/2023
+89,SmartLife Speakers Pro 428,Audio,Speakers,FitGear,667.16,1331.29,4.32,0,2018-12-13
+90,HomeChef Speakers  193,Audio,Speakers,ViewMax,285.17,378.95,0.92,Y,03/12/2023
+91,ClearSound Soundbars  729,Audio,Soundbars,ClearSound,219.33,365.88,0.39,1,2022-07-27
+92,FitGear Soundbars Pro 223,Audio,Soundbars,SmartLife,97.02,230.09,3.03,Y,22/11/2020
+93,HomeChef Soundbars  575,Audio,Soundbars,FitGear,404.52,712.79,0.24,yes,17/04/2019
+94,SoundWave Soundbars Pro 767,Audio,Soundbars,ViewMax,-732.71,-1439.69,2.09,YES,2019-02-20
+95,SmartLife Record Players  533,Audio,Record Players,TechPro,630.65,1228.84,4.08,yes,11/20/2019
+96,HomeChef Record Players Pro 959,Audio,Record Players,HomeChef,529.39,726.43,4.23,no,30/05/2023
+97,ViewMax Record Players  191,Audio,Record Players,SmartLife,476.42,645.35,0.78,0,12/28/2023
+98,ClearSound Record Players Pro 750,Audio,Record Players,ClearSound,705.06,1343.69,2.32,1,27/07/2021

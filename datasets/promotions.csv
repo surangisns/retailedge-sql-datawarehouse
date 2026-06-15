@@ -1,0 +1,16 @@
+promo_id,promo_name,start_date,end_date,discount_type,discount_value,applicable_category
+1,Summer Sale,11/10/2023,2023-12-03,Percentage,12.37,Audio
+2,Back to School,2023-12-10,21/12/2023,percentage,26.31,Electronics
+3,Black Friday,2023-02-28,2023-02-19,Fixed,31.69,Audio
+4,Cyber Monday,2023-07-06,07/10/2023,Fixed,28.53,Wearables
+5,Christmas Sale,01/02/2023,2023-02-15,percentage,9.37,Wearables
+6,New Year Deals,01/10/2022,27/01/2022,percentage,31.54,
+7,Easter Sale,03/04/2022,2022-05-28,Percentage,33.29,Home & Kitchen
+8,Mid-Year Clearance,07/01/2023,2023-01-12,Percentage,22.25,
+9,Flash Sale,2022-07-20,13/09/2022,Fixed,8.88,Wearables
+10,VIP Weekend,2023-07-20,04/08/2023,fixed,7.29,Home & Kitchen
+11,Category Special,09/23/2022,13/09/2022,fixed,35.84,
+12,Bundle Deal,05/18/2024,2024-07-03,percentage,39.72,
+13,Loyalty Reward,2022-01-03,2022-02-02,percentage,34.89,Wearables
+14,Clearance Event,2022-10-08,18/10/2022,Fixed,22.35,Audio
+15,Test Promo,2022-02-18,2022-03-10,Fixed,23.63,Wearables

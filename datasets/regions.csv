@@ -1,0 +1,21 @@
+region_id,region_name,country,state,zone,manager_name
+1,NSW Metro,Australia,NSW,East,James Thornton
+2,NSW Regional,Australia,NSW,East,Sarah Nguyen
+3,VIC Metro,Australia,VIC,South,Michael Chen
+4,VIC Regional,Australia,VIC,South,Lisa Park
+5,QLD Metro,Australia,QLD,North,David Williams
+6,QLD Regional,Australia,QLD,North,Emma Brown
+7,WA Metro,Aus,WA,West,Chris Anderson
+8,WA Regional,australia,WA,West,Anna Wilson
+9,SA Metro,Australia,SA,South,Tom Davis
+10,SA Regional,Australia,SA,South,Kate Miller
+11,TAS,Australia,TAS,South,Ben Taylor
+12,ACT,Australia,ACT,East,Grace Moore
+13,NT,Australia,NT,North,Jack White
+14,NZ North,New Zealand,Auckland,,Oliver Green
+15,NZ South,New Zealand,Canterbury,,Sophie Hall
+16,Singapore,Singapore,,,Ryan Lee
+17,NSW Metro,Australia,NSW,East,James Thornton
+18,VIC Metro,Australia,VIC,,Michael Chen
+19,QLD Metro,Australia,QLD,North,Emma Brown
+20,Online,,,Digital,

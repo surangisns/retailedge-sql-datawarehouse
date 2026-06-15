@@ -1,0 +1,301 @@
+return_id,order_id,product_id,return_date,return_reason,refund_amount,return_status
+1,266,96,21/08/2023,Changed mind,601.92,refunded
+2,1716,17,2024-08-18,Defective product,274.71,refunded
+3,608,65,15/05/2022,Better price elsewhere,167.95,refunded
+4,1626,91,2024-06-10,Duplicate order,324.09,rejected
+5,109,12,05/27/2024,Other,701.35,rejected
+6,1262,92,2021-08-13,Better price elsewhere,211.57,refunded
+7,776,85,19/03/2022,Better price elsewhere,1187.78,pending
+8,1449,66,2022-11-03,Not as described,955.63,refunded
+9,370,39,27/09/2023,Changed mind,1468.33,refunded
+10,1803,87,2023-04-04,Defective product,964.96,rejected
+11,49,37,2023-04-08,Other,938.51,refunded
+12,1985,72,2022-04-14,Duplicate order,1441.01,refunded
+13,1888,30,01/22/2023,Quality not as expected,59.92,pending
+14,1125,28,2023-11-13,Not as described,602.86,refunded
+15,685,35,18/07/2022,Other,903.51,pending
+16,1836,39,01/24/2023,Defective product,1482.15,refunded
+17,1958,25,10/10/2021,Other,1657.82,refunded
+18,1266,95,2024-08-27,Size/fit issue,1025.55,rejected
+19,805,44,2023-07-24,Quality not as expected,635.21,pending
+20,1586,1,05/12/2024,Size/fit issue,953.82,approved
+21,167,37,2023-02-04,Size/fit issue,1021.16,approved
+22,710,10,2021-07-01,Duplicate order,715.1,refunded
+23,1051,23,23/07/2022,Duplicate order,797.21,refunded
+24,1720,98,2024-05-26,Not as described,1086.13,rejected
+25,208,26,06/11/2023,Better price elsewhere,1090.14,pending
+26,437,33,01/08/2024,Size/fit issue,779.47,pending
+27,,11,2023-03-13,Wrong item delivered,996.78,rejected
+28,1733,38,12/21/2023,Quality not as expected,4224.47,refunded
+29,769,29,09/02/2023,Not as described,502.43,pending
+30,764,31,2022-02-14,Damaged in transit,174.2,pending
+31,260,65,07/13/2021,Damaged in transit,163.43,approved
+32,574,66,2024-08-21,Changed mind,922.6,rejected
+33,438,88,2024-09-05,Other,4056.55,approved
+34,147,62,18/08/2023,Size/fit issue,1242.03,rejected
+35,883,52,06/12/2022,Duplicate order,618.09,rejected
+36,,32,15/02/2021,Wrong item delivered,153.28,pending
+37,619,26,01/11/2025,Changed mind,1220.06,approved
+38,1871,57,07/28/2021,Size/fit issue,554.54,pending
+39,760,96,03/08/2021,Better price elsewhere,636.63,rejected
+40,975,60,05/04/2021,Better price elsewhere,1215.98,approved
+41,,96,05/06/2023,Other,614.82,refunded
+42,548,76,2021-08-14,Changed mind,436.79,pending
+43,1803,55,2023-04-01,Duplicate order,433.53,refunded
+44,1416,85,20/11/2023,Wrong item delivered,1294.1,pending
+45,1340,82,2023-06-23,Other,78.99,approved
+46,1707,77,04/12/2024,Damaged in transit,1013.17,rejected
+47,1894,37,2022-10-06,Wrong item delivered,1064.15,refunded
+48,1284,96,2023-09-12,Changed mind,701.52,rejected
+49,,13,01/29/2023,Quality not as expected,1356.55,pending
+50,1610,90,2023-12-19,Quality not as expected,376.52,rejected
+51,1340,19,08/06/2023,Quality not as expected,236.07,refunded
+52,270,82,28/02/2022,Duplicate order,72.15,pending
+53,1786,78,12/19/2023,Better price elsewhere,547.12,rejected
+54,1676,57,2024-04-15,Duplicate order,516.96,refunded
+55,470,61,01/10/2023,Damaged in transit,595.79,pending
+56,,49,09/21/2021,Duplicate order,78.66,approved
+57,272,31,2021-02-01,Other,190.0,refunded
+58,1638,88,11/26/2021,Duplicate order,1586.72,refunded
+59,1179,60,09/06/2024,Changed mind,1275.51,refunded
+60,1751,22,09/13/2023,Duplicate order,615.11,refunded
+61,,41,2024-11-04,Changed mind,136.43,refunded
+62,1734,74,2022-04-16,Not as described,1145.73,rejected
+63,549,84,18/05/2021,Changed mind,1526.77,rejected
+64,454,7,01/23/2021,Quality not as expected,590.33,refunded
+65,1641,56,20/12/2023,Wrong item delivered,372.15,rejected
+66,1811,45,03/08/2023,Quality not as expected,371.43,rejected
+67,613,63,2024-06-24,Changed mind,196.52,rejected
+68,798,81,2021-06-08,Damaged in transit,792.37,refunded
+69,494,98,2021-07-30,Size/fit issue,1223.21,approved
+70,,16,2022-10-12,Defective product,234.72,refunded
+71,1576,48,06/02/2024,Damaged in transit,571.75,pending
+72,208,62,10/18/2023,Defective product,1247.62,refunded
+73,1743,3,2021-06-17,Wrong item delivered,89.01,pending
+74,1323,23,10/19/2022,Damaged in transit,851.54,refunded
+75,407,34,2022-09-12,Wrong item delivered,168.64,approved
+76,750,71,12/29/2022,Not as described,210.24,approved
+77,260,10,08/06/2021,Changed mind,662.53,pending
+78,329,97,2025-01-09,Quality not as expected,558.54,rejected
+79,1615,10,2023-07-05,Defective product,604.65,rejected
+80,1357,72,2021-05-22,Better price elsewhere,1683.94,pending
+81,78,46,04/09/2021,Better price elsewhere,314.21,pending
+82,106,59,12/19/2024,Not as described,790.08,approved
+83,234,59,04/01/2022,Changed mind,782.36,refunded
+84,623,84,31/10/2021,Size/fit issue,1383.87,pending
+85,1510,71,23/04/2024,Quality not as expected,205.86,refunded
+86,529,69,2021-07-21,Defective product,379.38,refunded
+87,1478,53,2024-09-18,Defective product,499.46,refunded
+88,1989,78,06/09/2022,Other,536.53,rejected
+89,242,24,30/11/2024,Defective product,1564.57,refunded
+90,985,84,2021-11-29,Changed mind,1410.17,refunded
+91,1674,97,2024-10-13,Damaged in transit,621.67,refunded
+92,1914,88,2022-04-14,Duplicate order,1577.6,pending
+93,552,57,28/09/2024,Quality not as expected,584.27,pending
+94,1103,8,06/21/2024,Damaged in transit,2017.31,refunded
+95,1767,30,2022-02-04,Other,66.61,pending
+96,1400,43,2023-04-24,Damaged in transit,1232.51,approved
+97,1858,97,2023-11-13,Changed mind,533.42,refunded
+98,1400,2,2023-04-16,Better price elsewhere,860.6,rejected
+99,1540,14,12/05/2021,Size/fit issue,1006.29,refunded
+100,1631,75,12/28/2022,Duplicate order,540.78,refunded
+101,1165,10,2024-04-01,Not as described,707.1,pending
+102,940,61,07/12/2022,Quality not as expected,603.93,refunded
+103,1361,41,07/25/2024,Wrong item delivered,134.34,pending
+104,1289,38,2023-07-14,Changed mind,1434.72,rejected
+105,497,76,2023-02-28,Duplicate order,435.32,pending
+106,1060,19,03/15/2023,Other,246.58,pending
+107,1914,47,05/11/2022,Changed mind,514.3,pending
+108,761,29,24/03/2021,Changed mind,457.48,rejected
+109,1734,48,2022-05-11,Changed mind,523.63,rejected
+110,1142,82,12/13/2024,Quality not as expected,85.1,pending
+111,269,20,13/06/2024,Other,1387.01,rejected
+112,792,87,08/11/2024,Duplicate order,1042.34,refunded
+113,1176,8,11/02/2021,Size/fit issue,625.65,refunded
+114,1704,1,15/05/2022,Changed mind,1112.19,refunded
+115,167,80,01/29/2023,Changed mind,817.51,refunded
+116,222,62,2022-02-02,Better price elsewhere,1230.37,refunded
+117,1793,45,07/31/2021,Wrong item delivered,338.27,refunded
+118,825,28,2024-11-13,Quality not as expected,699.38,refunded
+119,133,7,16/12/2021,Wrong item delivered,1980.08,refunded
+120,,96,09/02/2023,Size/fit issue,697.89,pending
+121,1227,1,2023-08-22,Quality not as expected,1075.27,pending
+122,,19,2023-08-28,Changed mind,210.93,rejected
+123,340,49,09/20/2022,Other,91.36,approved
+124,671,67,2021-02-16,Duplicate order,838.41,pending
+125,768,72,2023-01-30,Size/fit issue,1617.71,refunded
+126,1855,64,02/05/2023,Size/fit issue,528.05,refunded
+127,215,62,2022-07-28,Changed mind,1306.38,approved
+128,1822,4,2024-07-20,Wrong item delivered,904.31,refunded
+129,546,29,05/05/2022,Duplicate order,466.23,approved
+130,1820,12,07/06/2022,Damaged in transit,746.27,rejected
+131,1327,51,2024-07-05,Damaged in transit,746.87,approved
+132,1161,11,2022-03-09,Size/fit issue,1093.97,refunded
+133,215,4,08/20/2022,Duplicate order,942.46,pending
+134,1767,9,02/05/2022,Not as described,151.26,rejected
+135,885,50,10/26/2024,Defective product,589.42,rejected
+136,1989,30,06/08/2022,Wrong item delivered,67.73,approved
+137,616,22,04/01/2022,Better price elsewhere,668.92,pending
+138,148,42,31/08/2022,Duplicate order,580.9,approved
+139,965,27,05/08/2023,Quality not as expected,446.49,rejected
+140,497,60,2023-03-09,Defective product,1169.01,refunded
+141,1152,76,05/19/2022,Defective product,374.3,refunded
+142,425,64,11/04/2022,Damaged in transit,544.57,pending
+143,749,20,23/05/2024,Changed mind,1381.6,refunded
+144,1070,44,06/06/2021,Damaged in transit,641.61,approved
+145,1820,41,2022-06-25,Damaged in transit,154.64,approved
+146,884,13,2021-05-03,Changed mind,1330.38,approved
+147,1957,27,08/05/2023,Wrong item delivered,491.74,pending
+148,1963,28,2022-07-07,Wrong item delivered,709.27,pending
+149,,67,04/11/2024,Not as described,859.76,rejected
+150,454,6,2021-02-11,Defective product,880.59,pending
+151,360,3,2024-05-01,Better price elsewhere,98.59,pending
+152,516,27,25/06/2024,Duplicate order,508.65,rejected
+153,549,48,2021-05-23,Other,477.85,rejected
+154,915,65,2021-02-20,Better price elsewhere,167.41,refunded
+155,595,21,05/24/2023,Duplicate order,632.77,rejected
+156,595,4,17/05/2023,Other,1015.95,pending
+157,106,63,2025-01-20,Wrong item delivered,243.85,refunded
+158,641,60,03/12/2024,Other,1217.88,rejected
+159,1558,14,12/26/2022,Defective product,902.53,pending
+160,1610,32,14/01/2024,Size/fit issue,166.73,refunded
+161,965,73,03/06/2023,Better price elsewhere,999.14,approved
+162,723,88,2021-10-21,Wrong item delivered,1575.72,rejected
+163,1979,91,01/01/2023,Quality not as expected,323.72,pending
+164,,7,06/07/2023,Not as described,547.25,approved
+165,1707,82,03/25/2024,Damaged in transit,88.01,refunded
+166,,23,07/21/2023,Not as described,848.31,refunded
+167,911,3,2022-10-13,Duplicate order,91.16,rejected
+168,258,64,2024-10-27,Not as described,601.45,approved
+169,1642,56,05/11/2024,Defective product,305.71,rejected
+170,478,55,2024-01-27,Quality not as expected,491.26,refunded
+171,1674,33,10/12/2024,Damaged in transit,877.98,pending
+172,707,4,26/02/2022,Wrong item delivered,992.9,refunded
+173,1586,61,22/12/2024,Wrong item delivered,690.43,rejected
+174,1056,65,2024-06-05,Wrong item delivered,156.41,pending
+175,696,96,25/09/2023,Wrong item delivered,721.67,approved
+176,116,57,2021-09-23,Duplicate order,528.23,rejected
+177,1417,71,2021-12-17,Wrong item delivered,212.02,pending
+178,1086,54,2021-06-08,Wrong item delivered,1133.88,refunded
+179,1611,66,2021-10-16,Duplicate order,951.67,refunded
+180,1896,10,15/06/2021,Wrong item delivered,697.76,pending
+181,1224,35,07/14/2024,Not as described,997.13,approved
+182,1642,77,25/10/2024,Damaged in transit,980.62,rejected
+183,608,61,24/04/2022,Quality not as expected,631.66,rejected
+184,579,87,2022-03-17,Wrong item delivered,1108.23,pending
+185,293,32,06/18/2022,Better price elsewhere,155.13,refunded
+186,1945,98,2023-07-08,Better price elsewhere,1192.91,rejected
+187,1398,14,2022-01-09,Not as described,891.14,rejected
+188,810,35,2024-12-25,Not as described,959.68,pending
+189,291,65,2021-10-01,Defective product,174.79,refunded
+190,613,20,06/25/2024,Quality not as expected,1425.64,rejected
+191,830,91,2023-02-14,Other,334.51,rejected
+192,450,75,2022-03-17,Quality not as expected,595.84,rejected
+193,1206,67,2022-01-18,Quality not as expected,916.62,approved
+194,1358,94,2023-11-10,Wrong item delivered,1219.28,pending
+195,1883,97,31/12/2024,Size/fit issue,1786.92,refunded
+196,574,51,13/08/2024,Changed mind,732.93,approved
+197,1944,83,2024-09-09,Damaged in transit,157.4,refunded
+198,1202,43,21/01/2022,Better price elsewhere,1261.01,approved
+199,1647,29,29/10/2024,Duplicate order,509.36,refunded
+200,1361,66,06/29/2024,Other,885.1,approved
+201,350,69,2021-07-07,Damaged in transit,387.47,rejected
+202,1034,29,25/08/2023,Changed mind,443.98,pending
+203,40,63,07/21/2024,Size/fit issue,237.56,pending
+204,13,23,15/09/2021,Not as described,757.38,pending
+205,,69,02/08/2021,Changed mind,325.88,rejected
+206,1190,30,02/03/2021,Defective product,62.17,approved
+207,101,89,2023-02-03,Not as described,1100.55,refunded
+208,104,81,2021-10-05,Better price elsewhere,769.96,rejected
+209,274,75,10/06/2021,Wrong item delivered,530.65,pending
+210,1835,16,03/29/2021,Defective product,229.09,approved
+211,183,4,17/12/2022,Other,891.44,pending
+212,1202,82,02/03/2022,Changed mind,84.46,pending
+213,1039,30,2021-05-28,Wrong item delivered,58.97,pending
+214,126,89,2024-03-16,Defective product,1284.13,approved
+215,693,79,01/14/2022,Not as described,190.12,pending
+216,1318,42,2021-05-15,Other,664.58,pending
+217,1631,69,2023-01-01,Damaged in transit,353.73,pending
+218,601,27,2023-11-14,Defective product,451.45,refunded
+219,1949,39,07/30/2022,Damaged in transit,1719.46,rejected
+220,780,19,2023-08-28,Not as described,240.41,approved
+221,904,48,07/02/2022,Changed mind,556.53,approved
+222,125,96,2022-10-10,Quality not as expected,632.11,pending
+223,1966,10,05/17/2022,Defective product,640.08,refunded
+224,224,30,21/02/2021,Better price elsewhere,65.22,approved
+225,,81,2023-08-02,Duplicate order,778.31,rejected
+226,1734,56,09/05/2022,Duplicate order,318.74,approved
+227,1446,45,07/07/2022,Damaged in transit,307.57,rejected
+228,1413,8,2023-08-21,Other,664.91,refunded
+229,1561,3,2023-11-30,Better price elsewhere,97.08,rejected
+230,1872,61,2021-08-28,Changed mind,698.98,pending
+231,1206,16,01/04/2022,Not as described,247.94,refunded
+232,423,70,08/06/2023,Not as described,925.21,rejected
+233,270,7,2022-02-25,Damaged in transit,633.98,approved
+234,818,34,09/20/2021,Size/fit issue,163.44,refunded
+235,741,94,12/21/2024,Defective product,1174.49,approved
+236,557,38,2021-07-16,Other,1436.0,approved
+237,768,36,2023-01-30,Wrong item delivered,1010.55,approved
+238,1669,58,07/08/2022,Changed mind,429.5,refunded
+239,1733,66,12/15/2023,Changed mind,966.34,rejected
+240,920,77,2024-04-12,Other,2636.47,refunded
+241,1999,39,10/12/2022,Duplicate order,1669.57,rejected
+242,1157,22,09/29/2024,Wrong item delivered,563.09,approved
+243,366,14,02/12/2022,Wrong item delivered,925.61,approved
+244,1990,11,14/09/2024,Size/fit issue,1020.1,rejected
+245,1791,29,04/25/2021,Other,479.13,approved
+246,1760,6,2021-06-02,Other,2925.39,refunded
+247,617,12,03/03/2021,Duplicate order,862.8,refunded
+248,428,93,09/26/2021,Wrong item delivered,624.85,rejected
+249,1356,51,01/09/2022,Quality not as expected,842.36,rejected
+250,821,40,2021-09-30,Wrong item delivered,272.7,pending
+251,203,8,09/12/2023,Other,661.46,approved
+252,1329,53,08/28/2022,Wrong item delivered,504.47,approved
+253,723,54,2021-10-12,Better price elsewhere,1142.91,rejected
+254,160,64,2022-09-18,Quality not as expected,595.31,pending
+255,1974,69,2022-11-18,Not as described,383.11,refunded
+256,693,71,01/25/2022,Other,212.27,refunded
+257,1489,70,2023-01-01,Better price elsewhere,933.14,refunded
+258,1158,64,04/25/2022,Size/fit issue,591.39,rejected
+259,1652,4,30/11/2022,Duplicate order,1036.33,refunded
+260,1610,56,2023-12-31,Quality not as expected,342.85,approved
+261,488,53,2021-11-22,Defective product,507.45,pending
+262,1932,63,2024-12-30,Damaged in transit,229.02,approved
+263,1471,58,2021-02-16,Size/fit issue,376.88,rejected
+264,564,4,23/06/2022,Better price elsewhere,934.0,approved
+265,1776,75,2022-07-23,Quality not as expected,653.38,refunded
+266,892,35,2025-01-01,Other,919.25,pending
+267,1229,44,2021-09-06,Quality not as expected,679.81,approved
+268,40,29,2024-08-06,Damaged in transit,421.38,rejected
+269,425,32,2022-11-12,Defective product,160.52,approved
+270,813,73,2021-02-21,Other,1027.6,refunded
+271,206,9,05/16/2023,Duplicate order,134.03,rejected
+272,796,28,12/14/2022,Wrong item delivered,714.96,refunded
+273,1935,50,2021-12-04,Not as described,627.2,pending
+274,692,37,11/25/2021,Duplicate order,994.63,pending
+275,1626,3,2024-06-04,Damaged in transit,80.55,refunded
+276,1106,91,2023-04-01,Wrong item delivered,354.87,approved
+277,1707,28,04/01/2024,Better price elsewhere,714.1,refunded
+278,1413,35,08/28/2023,Quality not as expected,997.8,pending
+279,1888,26,2023-01-27,Better price elsewhere,1092.15,rejected
+280,1439,46,2024-11-26,Not as described,344.75,rejected
+281,907,28,2022-11-17,Not as described,621.06,rejected
+282,1818,12,2023-10-20,Duplicate order,824.39,refunded
+283,1297,32,2022-05-23,Damaged in transit,159.31,pending
+284,1393,5,06/05/2021,Not as described,1058.79,approved
+285,1498,42,2023-07-29,Wrong item delivered,693.2,refunded
+286,1601,23,25/02/2021,Duplicate order,766.89,pending
+287,881,1,2022-11-17,Changed mind,1068.57,rejected
+288,559,48,2024-04-08,Quality not as expected,558.83,pending
+289,814,82,2021-11-04,Quality not as expected,265.38,pending
+290,655,34,05/21/2021,Quality not as expected,176.2,refunded
+291,1914,10,26/04/2022,Not as described,589.76,rejected
+292,803,3,20/10/2022,Not as described,82.05,approved
+293,165,24,2022-09-05,Duplicate order,1482.05,approved
+294,206,53,03/06/2023,Defective product,491.19,refunded
+295,,19,09/26/2021,Duplicate order,225.55,approved
+296,695,13,2021-10-25,Wrong item delivered,1202.75,approved
+297,1814,40,08/10/2022,Better price elsewhere,281.3,approved
+298,798,49,21/06/2021,Defective product,85.77,approved
+299,76,95,04/28/2024,Size/fit issue,986.67,rejected
+300,1751,35,2023-09-01,Defective product,953.92,refunded

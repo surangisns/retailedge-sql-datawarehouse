@@ -1,0 +1,9 @@
+channel_id,channel_name,channel_type,commission_pct,is_active
+1,Web,digital,0.0,Y
+2,Mobile App,digital,0.0,Y
+3,In-Store,physical,0.0,Y
+4,Partner Marketplace,partner,12.5,Y
+5,TV Shopping,physical,8.0,N
+6,Partner Marketplace,partner,15.0,Y
+7,Web,digital,0.0,yes
+8,Telesales,physical,105.0,1
