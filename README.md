@@ -303,7 +303,7 @@ Power BI Desktop connects directly to the **Gold layer** in SQL Server or Postgr
 
 ## 👤 Author
 
-**Surangani Senevirathna**
+**Surangani Bandara**
 Data Analyst | Power BI | SQL | Python
 
 🔗 [GitHub Profile](https://github.com/surangisns)
