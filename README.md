@@ -280,6 +280,40 @@ Power BI Desktop connects directly to the **Gold layer** in SQL Server or Postgr
 
 ---
 
+## 📸 Analytics Query Results
+
+### Total Revenue
+![Total Revenue](screenshots/01_total_revenue.png)
+
+### Monthly Sales Trend
+![Monthly Sales Trend](screenshots/02_monthly_sales_trend.png)
+
+### Top Products by Revenue
+![Top Products](screenshots/03_top_Products.png)
+
+### Top Customers
+![Top Customers](screenshots/04_top_customers.png)
+
+### Sales by Region
+![Sales by Region](screenshots/05_sales_by_region.png)
+
+### Sales by Channel
+![Sales by Channel](screenshots/06_sales_by_channel.png)
+
+### Average Order Value
+![Average Order Value](screenshots/07_average_order_value.png)
+
+### Product Return Rate
+![Return Rate](screenshots/08_return_rate.png)
+
+### Category Performance
+![Category Performance](screenshots/09_category_performance.png)
+
+### Customer Lifetime Value
+![Customer Lifetime Value](screenshots/10_customer_lifetime_value.png)
+
+
+
 ## 💡 Key Learnings
 
 - Designing a **medallion architecture** (Bronze/Silver/Gold) from scratch
