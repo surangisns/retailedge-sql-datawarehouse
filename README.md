@@ -141,7 +141,7 @@ retailedge-sql-datawarehouse/
 │   └── channel_analysis.sql
 │
 ├── 📁 powerbi/
-│   └── retailedge_dashboard.pbix
+│   └── RetailEdge_Dashboard.pbix
 │
 ├── 📁 docs/
 │   ├── architecture_diagram.png
@@ -149,7 +149,8 @@ retailedge-sql-datawarehouse/
 │   └── data_dictionary.md
 │
 ├── 📁 screenshots/
-│   └── (Power BI dashboard screenshots)
+│   ├── 01_total_revenue.png … 10_customer_lifetime_value.png   (SQL query results)
+│   └── dashboard_01_executive_overview.png … dashboard_04_regional_sales.png   (Power BI pages)
 │
 └── 📄 README.md
 ```
@@ -189,10 +190,11 @@ retailedge-sql-datawarehouse/
 - **Referential integrity** — orphaned records identified and excluded
 
 ### Gold Layer — Dimensional Model
-- **Surrogate keys** added to all dimension tables (`BIGSERIAL` / `IDENTITY`)
-- **dim_date** pre-populated as a full date spine (2020–2030)
-- **Age band** derived in `dim_customer` from date of birth
-- **fact_sales** built by joining Silver order + order_items with all dimension keys
+- **Surrogate keys** added to all dimension tables — `BIGINT IDENTITY(1,1)` in SQL Server, `BIGSERIAL` in PostgreSQL
+- **dim_date** pre-populated as a full date spine (2019–2025, 2,557 rows)
+- **Age band** derived in `dim_customer` from date of birth, with an explicit `Unknown` bucket for records where date of birth couldn't be parsed — kept visible in reporting rather than silently dropped, since it represents real revenue
+- **dim_region** includes a placeholder row (`region_id = -1`, `region_name = 'No Region (Partner Order)'`) to capture orders from partner-marketplace channels that don't carry a region in the source system — avoids silently losing revenue to unmatched joins
+- **fact_sales** built by joining Silver order + order_items with all dimension keys, using `ISNULL(region_id, -1)` so every row resolves to a valid region key
 - **fact_returns** linked back to fact_sales via order and product keys
 
 ---
@@ -218,7 +220,7 @@ dim_sales_channel ─────┼──── fact_sales ──── dim_cus
 | `dim_customer` | One row per customer | customer_key, customer_id, full_name, segment, age_band |
 | `dim_product` | One row per product | product_key, product_id, name, category, subcategory, brand |
 | `dim_date` | One row per calendar day | date_key (YYYYMMDD), year, quarter, month, week, day |
-| `dim_region` | One row per region | region_key, region_id, region_name, state, country, zone |
+| `dim_region` | One row per region (+1 placeholder row for unmatched orders) | region_key, region_id, region_name, state, country, zone |
 | `dim_sales_channel` | One row per channel | channel_key, channel_id, channel_name, channel_type |
 
 ### Fact Tables
@@ -243,6 +245,7 @@ Validation scripts are run after each layer:
 | Missing foreign keys (referential integrity) | `dq_referential_integrity.sql` |
 | Row count reconciliation Bronze vs Silver | `dq_reconciliation.sql` |
 | Sales total reconciliation | `dq_reconciliation.sql` |
+| Unmatched region_id on fact_sales resolved to placeholder dimension row rather than dropped | `07_gold_dimensions.sql` / `08_gold_facts.sql` |
 
 ---
 
@@ -267,16 +270,34 @@ Validation scripts are run after each layer:
 
 ## 📊 Power BI Dashboard
 
-Power BI Desktop connects directly to the **Gold layer** in SQL Server or PostgreSQL.
+Power BI Desktop connects directly to the **Gold layer** in SQL Server, via Import mode, with a custom navy/white theme applied across all four pages. Top-N rankings (top 10 products, top 10 customers) are implemented with `RANKX` DAX measures rather than the built-in Top N filter, for more transparent and reusable logic.
 
 **Report Pages:**
 
-| Page | Title | Key Visuals |
-|------|-------|-------------|
-| 1 | Executive Sales Overview | Revenue KPI, monthly trend, top 5 products |
-| 2 | Customer Analytics | Segment breakdown, top customers, CLV |
-| 3 | Product & Category Performance | Revenue by category, return rate |
-| 4 | Regional Sales Performance | Sales map, state drilldown, regional trends |
+| Page | Key Visuals |
+|------|-------------|
+| **1. Executive Overview** | KPI cards (Total Revenue, Total Orders, Total Units Sold, Avg Order Value) · Monthly Revenue Trend (line chart) · Revenue by Category (bar) · Revenue by Sales Channel (donut) |
+| **2. Product Performance** | Top 10 Products by Revenue (table, RANKX-filtered) · Return Rate by Category (bar) · Units Sold by Category (bar) · Average Margin % by Brand (bar) |
+| **3. Customer Analytics** | KPI cards (Total Customers, Avg Customer Lifetime Value) · Top 10 Customers by Revenue (table, RANKX-filtered) · Revenue by Customer Segment (donut) · Revenue by Age Band (bar) · Customers by State (bar) |
+| **4. Regional Sales** | KPI cards (Total Regions, Avg Revenue per Region) · Revenue by Region (bar) · Revenue by State (table) · Revenue by Zone (donut) |
+
+File: [`powerbi/RetailEdge_Dashboard.pbix`](powerbi/RetailEdge_Dashboard.pbix)
+
+---
+
+## 🖥️ Dashboard Screenshots
+
+### Executive Overview
+![Executive Overview](screenshots/dashboard_01_executive_overview.png)
+
+### Product Performance
+![Product Performance](screenshots/dashboard_02_product_performance.png)
+
+### Customer Analytics
+![Customer Analytics](screenshots/dashboard_03_customer_analytics.png)
+
+### Regional Sales
+![Regional Sales](screenshots/dashboard_04_regional_sales.png)
 
 ---
 
@@ -312,7 +333,7 @@ Power BI Desktop connects directly to the **Gold layer** in SQL Server or Postgr
 ### Customer Lifetime Value
 ![Customer Lifetime Value](screenshots/10_customer_lifetime_value.png)
 
-
+---
 
 ## 💡 Key Learnings
 
@@ -320,7 +341,9 @@ Power BI Desktop connects directly to the **Gold layer** in SQL Server or Postgr
 - **Dimensional modelling** — facts, dimensions, surrogate keys, date spines
 - Writing **SQL ETL transformations** for real-world messy data
 - Building **data quality checks** as part of the pipeline
+- Handling **unmatched foreign keys with a placeholder dimension row** instead of silently dropping revenue
 - Understanding **why star schemas** exist and how Power BI uses them
+- Writing **RANKX-based DAX measures** for dynamic Top-N filtering
 - Managing a **structured SQL project on GitHub**
 
 ---
