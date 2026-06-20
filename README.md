@@ -174,8 +174,8 @@ retailedge-sql-datawarehouse/
 
 ---
 
-## ⚙️ ETL Process
-
+## ⚙️ ELT Process
+This project follows an **ELT** pattern, not traditional ETL — raw data is **Loaded** into Bronze first, completely untouched, and all cleaning and modelling (**Transform**) happens afterward using SQL inside the warehouse itself, as data moves Bronze → Silver → Gold.
 ### Bronze Layer — Raw Ingestion
 - CSV files loaded as-is using `BULK INSERT` (SQL Server) or `\COPY` (PostgreSQL)
 - No transformation — data is preserved exactly as received
@@ -339,7 +339,7 @@ File: [`powerbi/RetailEdge_Dashboard.pbix`](powerbi/RetailEdge_Dashboard.pbix)
 
 - Designing a **medallion architecture** (Bronze/Silver/Gold) from scratch
 - **Dimensional modelling** — facts, dimensions, surrogate keys, date spines
-- Writing **SQL ETL transformations** for real-world messy data
+- Writing **SQL-based ELT transformations** for real-world messy data
 - Building **data quality checks** as part of the pipeline
 - Handling **unmatched foreign keys with a placeholder dimension row** instead of silently dropping revenue
 - Understanding **why star schemas** exist and how Power BI uses them
@@ -350,7 +350,7 @@ File: [`powerbi/RetailEdge_Dashboard.pbix`](powerbi/RetailEdge_Dashboard.pbix)
 
 ## 🚀 Future Improvements
 
-- [ ] Automate ETL pipeline using Python scripts
+- [ ] Automate ELT pipeline using Python scripts
 - [ ] Add Slowly Changing Dimension (SCD Type 2) for dim_customer
 - [ ] Add incremental load logic instead of full refresh
 - [ ] Build a data quality dashboard in Power BI
@@ -368,4 +368,4 @@ Data Analyst | Power BI | SQL | Python
 
 ---
 
-*This project was built as part of a data analytics portfolio to demonstrate SQL data engineering, dimensional modelling, and ETL design skills.*
+*This project was built as part of a data analytics portfolio to demonstrate SQL data engineering, dimensional modelling, and ELT design skills.*
